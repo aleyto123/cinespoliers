@@ -13,3 +13,21 @@
 
 ### 🔹 Visualización de la respuesta en formato JSON puro (raw data) de la lista de películas para su consumo por aplicaciones externas.
 ![Imagen 4](docs/imagen4.png)
+
+### 🔹 GET:
+![Imagen 5](docs/imagen5.png)
+
+### 🔹 GET POR ID:
+![Imagen 7](docs/imagen7.png)
+
+### 🔹 POST:
+![Imagen 6](docs/imagen6.png)
+
+### 🔹 PUT:
+![Imagen 8](docs/imagen8.png)
+
+### 🔹 DELETE:
+![Imagen 9](docs/imagen9.png)
+![Imagen 10](docs/imagen10.png)
+## Se puede visualizar que se elimino correctamente la pelicula con ID 2:
+![Imagen 11](docs/imagen11.png)
