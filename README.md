@@ -1,4 +1,7 @@
-# Nombre: Bellido Chambi Rony Widmer
+# INTEGRANTES: 
+# 1.Bellido Chambi Rony Widmer
+# 2.CHUCO BRAVO SHEYLA
+# 1.XIOMARA garcia silva
 
 ## 📸 Capturas del proyecto
 # 
