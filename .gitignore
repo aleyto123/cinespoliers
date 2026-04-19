@@ -1,0 +1,20 @@
+# Entorno virtual
+venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Base de datos
+db.sqlite3
+
+# Archivos de entorno
+.env
+
+# VS Code
+.vscode/
+
+# Migraciones (opcional en equipos grandes)
+*/migrations/*.py
+!*/migrations/__init__.py
