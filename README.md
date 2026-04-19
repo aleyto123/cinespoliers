@@ -1,7 +1,5 @@
 # INTEGRANTES: 
 # 1. Bellido Chambi Rony Widmer
-# 2. CHUCO BRAVO SHEYLA
-# 1. XIOMARA garcia silva
 
 ## 📸 Capturas del proyecto
 # 
@@ -34,3 +32,7 @@
 ![Imagen 10](docs/imagen10.png)
 ## Se puede visualizar que se elimino correctamente la pelicula con ID 2:
 ![Imagen 11](docs/imagen11.png)
+
+
+# 2. CHUCO BRAVO SHEYLA
+# 1. XIOMARA garcia silva
