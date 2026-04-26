@@ -1,7 +1,5 @@
 # INTEGRANTES: 
 # 1. Bellido Chambi Rony Widmer
-# 2. CHUCO BRAVO SHEYLA
-# 1. XIOMARA garcia silva
 
 ## 📸 Capturas del proyecto
 # 
@@ -17,20 +15,24 @@
 ### 🔹 Visualización de la respuesta en formato JSON puro (raw data) de la lista de películas para su consumo por aplicaciones externas.
 ![Imagen 4](docs/imagen4.png)
 
-### 🔹 GET:
+### 🔹 GET http://127.0.0.1:8000/api/movies/ :
 ![Imagen 5](docs/imagen5.png)
 
-### 🔹 GET POR ID:
+### 🔹 GET POR ID http://127.0.0.1:8000/api/movies/3/ :
 ![Imagen 7](docs/imagen7.png)
 
-### 🔹 POST:
+### 🔹 POST http://127.0.0.1:8000/api/movies/ :
 ![Imagen 6](docs/imagen6.png)
 
-### 🔹 PUT:
+### 🔹 PUT http://127.0.0.1:8000/api/movies/3/ :
 ![Imagen 8](docs/imagen8.png)
 
-### 🔹 DELETE:
+### 🔹 DELETE http://127.0.0.1:8000/api/movies/2/ :
 ![Imagen 9](docs/imagen9.png)
 ![Imagen 10](docs/imagen10.png)
 ## Se puede visualizar que se elimino correctamente la pelicula con ID 2:
 ![Imagen 11](docs/imagen11.png)
+
+
+# 2. CHUCO BRAVO SHEYLA
+# 3. XIOMARA garcia silva
