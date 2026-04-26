@@ -1,8 +1,11 @@
 from django.db import models
+from django.utils.text import slugify  # NUEVO: Para generar slugs
 
 
 class Genre(models.Model):
     name = models.CharField(max_length=100, unique=True)
+    description = models.TextField(blank=True, help_text="Descripción opcional del género")  # NUEVO: Campo adicional
+    slug = models.SlugField(blank=True)  # NUEVO: Para URLs amigables (sin unique por simplicidad)
 
     class Meta:
         db_table = "genres"
@@ -13,6 +16,11 @@ class Genre(models.Model):
     def __str__(self):
         return self.name
 
+    def save(self, *args, **kwargs):  # NUEVO: Generar slug automáticamente
+        if not self.slug:
+            self.slug = slugify(self.name)
+        super().save(*args, **kwargs)
+
 
 class Movie(models.Model):
     title = models.CharField(max_length=255)
@@ -21,10 +29,9 @@ class Movie(models.Model):
     duration_minutes = models.PositiveIntegerField()
     is_active = models.BooleanField(default=True)
 
-    # Relación
-    genre = models.ForeignKey(
+    # Relación ManyToMany # NUEVO
+    genres = models.ManyToManyField(
         Genre,
-        on_delete=models.CASCADE,
         related_name="movies"
     )
 
